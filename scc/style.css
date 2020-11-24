@@ -32,10 +32,10 @@
     font-weight: 400;
     color: #ffffff;
 }
-.header-iten{
+.header-item{
   position: relative;
 }
-  .header-iten:before {
+  .header-item:before {
     content: "";
     font-size: 20px;
     width: 25px;
@@ -70,7 +70,7 @@
 .text_product{
   width:650px;
 }
-.Dignity_and_pluses{
+.dignity_and_pluses{
   background-color: #f5f5f5;
   width: 100%;
   padding: 50px;
@@ -273,4 +273,180 @@
     margin: 0px 30px;
     border-radius: 10px;
   }
-
+  .price_button:hover{
+    background-color: rgb(224, 192, 192);
+  }
+  .price_button:active{
+    background-color: rgba(199, 219, 211, 0.767);
+    color: rgb(129, 71, 163);
+  }
+ footer{
+   width: 100%;
+   background-color: #445162;
+   padding: 54px 250px 46px 250px;
+ }
+ .contacts{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.information{
+  display: flex;
+  justify-content:center;
+}
+  form {
+  box-sizing: border-box;
+}
+input[type="Your name"],
+input[type="Your email"] {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 0 0 12px;
+  margin: 0 0 20px;
+}
+input[type="Your name"]:hover,
+input[type="Your email"]:hover,
+textarea:hover{
+  background-color: #ccc;
+  color: rgb(70, 34, 110);
+}
+textarea{
+  width: 100%;
+  height: 170px;
+  background-color: #ffffff;
+  margin: 0 0 20px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px 0 0 12px;
+}
+::placeholder{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #445162;
+}
+.submit{
+  width: 140px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #445162;
+  margin: 0 0 0 240px;
+}
+.submit:hover{
+  background-color: #ccc;
+}
+.submit:active{
+  background-color: rgba(255, 255, 255, 0.767);
+  color: rgb(129, 71, 163);
+  border: 1px solid rgb(129, 122, 187);
+}
+.adress{
+  width: 50%;
+}
+.list_contacts{
+  list-style-type: none; 
+  padding: 0 0 31px 0;
+}
+.contact-block{
+  margin: -15px 0 0 45px;
+}
+.link_skype{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+.link_skype::before{
+  content:'' ;
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_w2kNeeINtcLFjBnAwX0f3-uO1eB7aH--mg&usqp=CAU");
+  background-color: transparent;
+  top: -6px;
+  left: -31px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+}
+  .link_tel{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+  .link_tel::before{
+  content:'' ;
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url("https://img.icons8.com/ios/452/icq.png");
+  background-color: transparent;
+  top: -6px;
+  left: -31px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+}
+ .link_email{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+ }
+.link_email::before{
+  content:'' ;
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/At_sign.svg/239px-At_sign.svg.png");
+  background-color: transparent;
+  top: -6px;
+  left: -31px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+}
+.link_phone{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+.link_phone::before{
+  content:'' ;
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url('https://img.icons8.com/dotty/2x/phone.png');
+  background-color: transparent;
+  top: -6px;
+  left: -31px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+}
+.emblems:hover{
+  background-color: rgb(160, 155, 175);
+}
